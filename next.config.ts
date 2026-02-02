@@ -18,11 +18,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  // Disable Turbopack for production builds (use webpack)
-  // This ensures consistent chunk naming and no turbopack runtime
-  experimental: {
-    // Turbopack is only for dev, webpack for production
-  },
+  // Production builds use webpack by default (not turbopack)
+  // Turbopack is only for dev mode
 
   // Generate consistent build ID for cache management
   // Change version number when making breaking changes
