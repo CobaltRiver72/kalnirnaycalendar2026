@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Kalnirnay Calendar 2026 - Complete Hindu Panchang',
   description: 'Complete Kalnirnay Calendar 2026 with all 12 months. View daily Panchang, Tithi, Nakshatra, festivals, and auspicious timings for the entire year 2026.',
   alternates: {
-    canonical: '/calendar-2026',
+    canonical: '/calendar',
   },
 };
 
@@ -30,13 +30,13 @@ export default function Calendar2026Page() {
   const collectionSchema = getCollectionPageSchema({
     name: 'Kalnirnay Calendar 2026 - Complete Hindu Panchang',
     description: 'Complete Kalnirnay Calendar 2026 with monthly Panchang, festivals, and auspicious dates.',
-    url: `${SITE_CONFIG.url}/calendar-2026`,
+    url: `${SITE_CONFIG.url}/calendar`,
   });
 
   const monthListSchema = getItemListSchema(
     months2026.map((month, index) => ({
       name: `${month.name} 2026 - Kalnirnay Calendar`,
-      url: `${SITE_CONFIG.url}/calendar-2026/${month.slug}`,
+      url: `${SITE_CONFIG.url}/calendar/${month.slug}`,
       position: index + 1,
     }))
   );
@@ -53,7 +53,7 @@ export default function Calendar2026Page() {
       />
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <Breadcrumbs items={[{ name: 'Calendar 2026', href: '/calendar-2026' }]} />
+        <Breadcrumbs items={[{ name: 'Calendar 2026', href: '/calendar' }]} />
 
         <header className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-[var(--foreground)] mb-4">
@@ -74,7 +74,7 @@ export default function Calendar2026Page() {
             {months2026.map((month) => (
               <Link
                 key={month.slug}
-                href={`/calendar-2026/${month.slug}`}
+                href={`/calendar/${month.slug}`}
                 className="bg-white rounded-xl p-6 text-center hover:shadow-xl transition-all border border-gray-100 group"
               >
                 <div className="text-3xl font-bold text-[var(--color-primary)] group-hover:scale-110 transition-transform">

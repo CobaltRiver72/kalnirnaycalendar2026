@@ -101,7 +101,7 @@ export default function AboutPage() {
       {/* Quick Links */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
         <Link
-          href="/calendar-2026"
+          href="/calendar"
           className="bg-[var(--color-primary)] text-white rounded-lg p-4 text-center hover:bg-[var(--color-primary-dark)] transition-colors"
         >
           View Calendar 2026

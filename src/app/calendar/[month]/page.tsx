@@ -140,7 +140,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${monthData.name} 2026 - Kalnirnay Calendar`,
     description: `${monthData.name} 2026 Kalnirnay Calendar with daily Panchang, Tithi, Nakshatra, festivals, and auspicious timings. View the complete Hindu calendar for ${monthData.name} 2026.`,
     alternates: {
-      canonical: `/calendar-2026/${month.toLowerCase()}`,
+      canonical: `/calendar/${month.toLowerCase()}`,
     },
   };
 }
@@ -161,7 +161,7 @@ export default async function MonthPage({ params }: Props) {
   const collectionSchema = getCollectionPageSchema({
     name: `${monthData.name} 2026 - Kalnirnay Calendar`,
     description: `Complete Panchang for ${monthData.name} 2026 with daily Tithi, Nakshatra, and festivals.`,
-    url: `${SITE_CONFIG.url}/calendar-2026/${monthSlug}`,
+    url: `${SITE_CONFIG.url}/calendar/${monthSlug}`,
   });
 
   // Generate calendar grid
@@ -180,8 +180,8 @@ export default async function MonthPage({ params }: Props) {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <Breadcrumbs 
           items={[
-            { name: 'Calendar 2026', href: '/calendar-2026' },
-            { name: `${monthData.name} 2026`, href: `/calendar-2026/${monthSlug}` },
+            { name: 'Calendar 2026', href: '/calendar' },
+            { name: `${monthData.name} 2026`, href: `/calendar/${monthSlug}` },
           ]} 
         />
 
@@ -189,7 +189,7 @@ export default async function MonthPage({ params }: Props) {
         <div className="flex justify-between items-center mb-8">
           {prevMonth ? (
             <Link 
-              href={`/calendar-2026/${prevMonth}`}
+              href={`/calendar/${prevMonth}`}
               className="text-[var(--color-primary)] hover:underline font-medium"
             >
               ← {months2026Data[prevMonth].name}
@@ -199,7 +199,7 @@ export default async function MonthPage({ params }: Props) {
           )}
           {nextMonth && (
             <Link 
-              href={`/calendar-2026/${nextMonth}`}
+              href={`/calendar/${nextMonth}`}
               className="text-[var(--color-primary)] hover:underline font-medium"
             >
               {months2026Data[nextMonth].name} →
@@ -279,7 +279,7 @@ export default async function MonthPage({ params }: Props) {
         {/* Quick Links */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Link
-            href="/calendar-2026"
+            href="/calendar"
             className="bg-[var(--background)] rounded-lg p-4 text-center hover:shadow-md transition-shadow"
           >
             <span className="font-medium text-[var(--foreground)]">View All Months</span>

@@ -183,7 +183,7 @@ export default function ShopPage() {
         {/* Quick Links */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link
-            href="/calendar-2026"
+            href="/calendar"
             className="bg-[var(--color-primary)] text-white rounded-lg p-4 text-center hover:bg-[var(--color-primary-dark)] transition-colors"
           >
             <span className="font-medium">View Kalnirnay Calendar 2026 Online →</span>

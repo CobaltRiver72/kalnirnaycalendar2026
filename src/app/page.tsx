@@ -63,7 +63,7 @@ export default function HomePage() {
   const monthListSchema = getItemListSchema(
     months2026.map((month, index) => ({
       name: `${month.name} 2026 - Kalnirnay Calendar`,
-      url: `${SITE_CONFIG.url}/calendar-2026/${month.slug}`,
+      url: `${SITE_CONFIG.url}/calendar/${month.slug}`,
       position: index + 1,
     }))
   );
@@ -97,7 +97,7 @@ export default function HomePage() {
           {/* Primary CTAs */}
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <Link 
-              href="/calendar-2026" 
+              href="/calendar" 
               className="bg-white text-[var(--color-primary)] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               View Full Calendar 2026
@@ -149,7 +149,7 @@ export default function HomePage() {
             {months2026.map((month) => (
               <Link
                 key={month.slug}
-                href={`/calendar-2026/${month.slug}`}
+                href={`/calendar/${month.slug}`}
                 className="bg-white rounded-lg p-6 text-center hover:shadow-lg transition-shadow border border-gray-100"
               >
                 <span className="text-lg font-semibold text-[var(--color-primary)]">
@@ -161,7 +161,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-8">
             <Link 
-              href="/calendar-2026" 
+              href="/calendar" 
               className="inline-block bg-[var(--color-primary)] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[var(--color-primary-dark)] transition-colors"
             >
               View Complete Kalnirnay Calendar 2026 →
@@ -210,7 +210,7 @@ export default function HomePage() {
               <div className="text-4xl mb-4">📅</div>
               <h3 className="text-xl font-semibold mb-2">View Online</h3>
               <p className="text-gray-600 mb-4">Access the complete Kalnirnay Calendar 2026 online anytime, anywhere.</p>
-              <Link href="/calendar-2026" className="text-[var(--color-primary)] font-medium hover:underline">
+              <Link href="/calendar" className="text-[var(--color-primary)] font-medium hover:underline">
                 Browse Calendar →
               </Link>
             </div>
@@ -218,7 +218,7 @@ export default function HomePage() {
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-xl font-semibold mb-2">Daily Panchang</h3>
               <p className="text-gray-600 mb-4">Check daily Tithi, Nakshatra, and auspicious timings.</p>
-              <Link href="/calendar-2026/january" className="text-[var(--color-primary)] font-medium hover:underline">
+              <Link href="/calendar/january" className="text-[var(--color-primary)] font-medium hover:underline">
                 Today&apos;s Panchang →
               </Link>
             </div>

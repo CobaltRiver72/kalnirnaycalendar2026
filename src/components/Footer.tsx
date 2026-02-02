@@ -31,7 +31,7 @@ export default function Footer() {
                         </h3>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <Link href="/calendar-2026" className="text-gray-300 hover:text-white transition-colors">
+                                <Link href="/calendar" className="text-gray-300 hover:text-white transition-colors">
                                     {lang === 'mr' ? 'कॅलेंडर २०२६' : 'Calendar 2026'}
                                 </Link>
                             </li>

@@ -105,7 +105,7 @@ export default function FestivalsPage() {
                 {/* Quick Links */}
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Link
-                        href="/calendar-2026"
+                        href="/calendar"
                         className="bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-dark)] text-white rounded-xl p-6 hover:shadow-lg transition-shadow"
                     >
                         <h3 className="text-xl font-bold mb-2">View Calendar 2026</h3>

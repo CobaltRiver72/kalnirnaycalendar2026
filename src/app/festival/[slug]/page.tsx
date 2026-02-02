@@ -266,7 +266,7 @@ export default async function FestivalDetailPage({ params }: Props) {
                         <span className="font-medium text-[var(--foreground)]">← All Festivals 2026</span>
                     </Link>
                     <Link
-                        href="/calendar-2026"
+                        href="/calendar"
                         className="bg-[var(--color-primary)] text-white rounded-lg p-4 text-center hover:bg-[var(--color-primary-dark)] transition-colors"
                     >
                         <span className="font-medium">View Calendar 2026 →</span>

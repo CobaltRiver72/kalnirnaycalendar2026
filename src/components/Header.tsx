@@ -11,7 +11,7 @@ export default function Header() {
 
     const navLinks = [
         { href: '/', label: { mr: 'मुख्यपृष्ठ', en: 'Home' } },
-        { href: '/calendar-2026', label: { mr: 'कॅलेंडर २०२६', en: 'Calendar 2026' } },
+        { href: '/calendar', label: { mr: 'कॅलेंडर २०२६', en: 'Calendar 2026' } },
         { href: '/festivals', label: { mr: 'सण', en: 'Festivals' } },
         { href: '/shop', label: { mr: 'खरेदी', en: 'Shop' } },
     ];
