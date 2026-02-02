@@ -1,4 +1,4 @@
-# [Kalnirnay Calendar 2026](https://kalnirnaycalendar2026.online)
+# Kalnirnay Calendar 2026
 
 A comprehensive Hindu Panchang calendar application with daily Panchang, festivals, and auspicious timings in Marathi and English.
 
