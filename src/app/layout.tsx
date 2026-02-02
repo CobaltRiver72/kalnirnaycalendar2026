@@ -4,6 +4,7 @@ import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getWebSiteSchema, getOrganizationSchema } from "@/lib/schema";
 
 // Load Inter font from Next.js
 const inter = Inter({
@@ -19,26 +20,45 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Kalnirnay Calendar 2026 | कालनिर्णय कॅलेंडर २०२६ - Daily Panchang & Festivals",
-  description: "Kalnirnay Calendar 2026 - दररोजचे पंचांग, सण, शुभ मुहूर्त मराठी आणि इंग्रजी मध्ये. Daily Panchang, festivals, auspicious timings in Marathi and English.",
-  keywords: ["kalnirnay calendar 2026", "kalnirnay 2026", "hindu calendar", "panchang", "marathi calendar", "indian festivals", "tithi", "nakshatra", "कालनिर्णय कॅलेंडर", "मराठी कॅलेंडर"],
+  title: {
+    default: "Kalnirnay Calendar 2026 - Official Hindu Panchang & Festivals",
+    template: "%s | Kalnirnay Calendar 2026",
+  },
+  description: "Kalnirnay Calendar 2026 - Your complete guide to Hindu Panchang with daily Tithi, Nakshatra, festivals, auspicious muhurat, and important dates for 2026. Trusted by millions.",
+  keywords: ["kalnirnay calendar 2026", "kalnirnay 2026", "hindu calendar 2026", "panchang 2026", "marathi calendar 2026", "indian festivals 2026", "tithi", "nakshatra", "muhurat 2026", "hindu panchang"],
   authors: [{ name: "Kalnirnay Calendar 2026" }],
+  creator: "Kalnirnay Calendar 2026",
+  publisher: "Kalnirnay Calendar 2026",
+  metadataBase: new URL("https://kalnirnaycalendar2026.online"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Kalnirnay Calendar 2026 | कालनिर्णय कॅलेंडर २०२६",
-    description: "Daily Panchang, festivals, auspicious timings in Marathi and English.",
+    title: "Kalnirnay Calendar 2026 - Official Hindu Panchang & Festivals",
+    description: "Complete Kalnirnay Calendar 2026 with daily Panchang, festivals, Tithi, Nakshatra, and auspicious timings.",
     type: "website",
-    locale: "mr_IN",
-    alternateLocale: "en_IN",
+    locale: "en_IN",
     url: "https://kalnirnaycalendar2026.online",
+    siteName: "Kalnirnay Calendar 2026",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kalnirnay Calendar 2026 | कालनिर्णय कॅलेंडर २०२६",
-    description: "Daily Panchang, festivals, auspicious timings in Marathi and English.",
+    title: "Kalnirnay Calendar 2026 - Official Hindu Panchang & Festivals",
+    description: "Complete Kalnirnay Calendar 2026 with daily Panchang, festivals, and auspicious timings.",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'verification-code-here',
   },
 };
 
@@ -51,11 +71,21 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://kalnirnaycalendar2026.online" />
-        {/* Mukta font for Marathi - loaded via CSS */}
         <link
           href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getWebSiteSchema()),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getOrganizationSchema()),
+          }}
         />
       </head>
       <body className="flex flex-col min-h-screen font-sans">

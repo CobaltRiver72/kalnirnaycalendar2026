@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
 
   // Generate sitemap and other files
   generateBuildId: async () => {
-    return 'hindu-panchang-v1';
+    return 'kalnirnay-calendar-2026-v1';
   },
 };
 

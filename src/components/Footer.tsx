@@ -31,13 +31,8 @@ export default function Footer() {
                         </h3>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <Link href="/" className="text-gray-300 hover:text-white transition-colors">
-                                    {lang === 'mr' ? 'आजचे पंचांग' : "Today's Panchang"}
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/calendar/2025/01" className="text-gray-300 hover:text-white transition-colors">
-                                    {lang === 'mr' ? 'मासिक कॅलेंडर' : 'Monthly Calendar'}
+                                <Link href="/calendar-2026" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'कॅलेंडर २०२६' : 'Calendar 2026'}
                                 </Link>
                             </li>
                             <li>
@@ -45,25 +40,41 @@ export default function Footer() {
                                     {lang === 'mr' ? 'सणांची यादी' : 'Festival List'}
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/shop" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'खरेदी करा' : 'Buy Calendar'}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
-                    {/* Location Info */}
+                    {/* Legal Links */}
                     <div>
                         <h3 className="font-semibold text-lg mb-4">
-                            {lang === 'mr' ? 'स्थान' : 'Location'}
+                            {lang === 'mr' ? 'माहिती' : 'Information'}
                         </h3>
-                        <p className="text-sm text-gray-300">
-                            {lang === 'mr'
-                                ? 'सूर्योदय/सूर्यास्त वेळा मुंबई, महाराष्ट्र साठी आहेत.'
-                                : 'Sunrise/Sunset times are for Mumbai, Maharashtra.'}
-                        </p>
-                        <div className="mt-4 flex items-center gap-2 text-sm text-gray-400">
-                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                            </svg>
-                            <span>{lang === 'mr' ? 'मुंबई, महाराष्ट्र' : 'Mumbai, Maharashtra'}</span>
-                        </div>
+                        <ul className="space-y-2 text-sm">
+                            <li>
+                                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'आमच्याबद्दल' : 'About Us'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'संपर्क' : 'Contact'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'गोपनीयता धोरण' : 'Privacy Policy'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/terms-and-conditions" className="text-gray-300 hover:text-white transition-colors">
+                                    {lang === 'mr' ? 'अटी व शर्ती' : 'Terms & Conditions'}
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

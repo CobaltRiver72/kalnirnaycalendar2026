@@ -10,9 +10,10 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navLinks = [
-        { href: '/', label: { mr: 'आज', en: 'Today' } },
-        { href: `/calendar/2025/01`, label: { mr: 'कॅलेंडर', en: 'Calendar' } },
+        { href: '/', label: { mr: 'मुख्यपृष्ठ', en: 'Home' } },
+        { href: '/calendar-2026', label: { mr: 'कॅलेंडर २०२६', en: 'Calendar 2026' } },
         { href: '/festivals', label: { mr: 'सण', en: 'Festivals' } },
+        { href: '/shop', label: { mr: 'खरेदी', en: 'Shop' } },
     ];
 
     return (
