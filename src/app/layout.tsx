@@ -1,16 +1,23 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Mukta } from "next/font/google";
 import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getWebSiteSchema, getOrganizationSchema } from "@/lib/schema";
 
-// Load Inter font from Next.js
+// Load fonts via next/font (no manual preloads needed)
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-inter",
+});
+
+const mukta = Mukta({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin", "devanagari"],
+  display: "swap",
+  variable: "--font-mukta",
 });
 
 export const viewport: Viewport = {
@@ -68,13 +75,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${inter.variable} ${mukta.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        {/* Fonts loaded via next/font - no manual links needed */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

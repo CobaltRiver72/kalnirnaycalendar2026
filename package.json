@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "clean": "rm -rf .next out node_modules/.cache",
+    "build:static": "npm run clean && next build",
+    "build:node": "npm run clean && NEXT_OUTPUT=server next build",
+    "start:prod": "NODE_ENV=production next start -p 3000",
+    "deploy:prepare": "npm run build:static && echo 'Build complete. Upload /out folder to hosting.'"
   },
   "dependencies": {
     "next": "16.1.1",
