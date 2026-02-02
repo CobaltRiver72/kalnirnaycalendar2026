@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const monthNameMr = getMonthName(parseInt(month), 'mr');
 
     return {
-        title: `${monthNameMr} ${year} | ${monthName} ${year} - Hindu Calendar`,
+        title: `${monthNameMr} ${year} | ${monthName} ${year} - Kalnirnay Calendar 2026`,
         description: `${monthName} ${year} Hindu calendar with daily Panchang, festivals, and auspicious timings. ${monthNameMr} ${year} मासिक कॅलेंडर.`,
         openGraph: {
-            title: `${monthName} ${year} - Hindu Panchang Calendar`,
+            title: `${monthName} ${year} - Kalnirnay Calendar 2026`,
             description: `View the Hindu calendar for ${monthName} ${year} with daily Tithi, Nakshatra, festivals and more.`,
         },
     };

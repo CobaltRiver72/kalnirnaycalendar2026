@@ -6,7 +6,7 @@ import { Language, BilingualText } from './types';
 // Translation messages
 const messages = {
     mr: {
-        siteName: 'हिंदू पंचांग',
+        siteName: 'कालनिर्णय २०२६',
         siteTagline: 'दैनिक पंचांग आणि सण',
         today: 'आज',
         calendar: 'कॅलेंडर',
@@ -38,7 +38,7 @@ const messages = {
         print: 'प्रिंट करा',
     },
     en: {
-        siteName: 'Hindu Panchang',
+        siteName: 'Kalnirnay Calendar 2026',
         siteTagline: 'Daily Panchang & Festivals',
         today: 'Today',
         calendar: 'Calendar',
@@ -87,7 +87,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
 
     // Load language preference from localStorage on mount
     useEffect(() => {
-        const savedLang = localStorage.getItem('hindu-calendar-lang') as Language;
+        const savedLang = localStorage.getItem('kalnirnay-calendar-lang') as Language;
         if (savedLang && (savedLang === 'mr' || savedLang === 'en')) {
             setLang(savedLang);
         }
@@ -96,7 +96,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     // Save language preference to localStorage
     const handleSetLang = (newLang: Language) => {
         setLang(newLang);
-        localStorage.setItem('hindu-calendar-lang', newLang);
+        localStorage.setItem('kalnirnay-calendar-lang', newLang);
     };
 
     const t = (key: MessageKey): string => {

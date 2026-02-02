@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!panchang) {
         return {
-            title: 'Date Not Found - Hindu Panchang',
+            title: 'Date Not Found - Kalnirnay Calendar 2026',
         };
     }
 
@@ -28,10 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const festivals = panchang.festivals.map(f => f.name.en).join(', ');
 
     return {
-        title: `${dateObj.getDate()} ${monthName} ${dateObj.getFullYear()} - Panchang | Hindu Calendar`,
+        title: `${dateObj.getDate()} ${monthName} ${dateObj.getFullYear()} - Panchang | Kalnirnay Calendar 2026`,
         description: `Panchang for ${dateObj.getDate()} ${monthName} ${dateObj.getFullYear()}. Tithi: ${panchang.tithi.en}, Nakshatra: ${panchang.nakshatra.en}${festivals ? `. Festivals: ${festivals}` : ''}.`,
         openGraph: {
-            title: `${dateObj.getDate()} ${monthName} ${dateObj.getFullYear()} - Hindu Panchang`,
+            title: `${dateObj.getDate()} ${monthName} ${dateObj.getFullYear()} - Kalnirnay Calendar 2026`,
             description: `Daily Panchang with Tithi, Nakshatra, Yoga, Karana and festival information.`,
         },
     };

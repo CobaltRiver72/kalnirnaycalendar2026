@@ -1,3 +1,9 @@
+# Kalnirnay Calendar 2026
+
+A comprehensive Hindu Panchang calendar application with daily Panchang, festivals, and auspicious timings in Marathi and English.
+
+**Website:** https://kalnirnaycalendar2026.online
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

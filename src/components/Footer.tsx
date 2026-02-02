@@ -15,7 +15,7 @@ export default function Footer() {
                     {/* About Section */}
                     <div>
                         <h3 className="font-semibold text-lg mb-4">
-                            {lang === 'mr' ? 'हिंदू पंचांग' : 'Hindu Panchang'}
+                            {lang === 'mr' ? 'कालनिर्णय २०२६' : 'Kalnirnay Calendar 2026'}
                         </h3>
                         <p className="text-sm text-gray-300 leading-relaxed">
                             {lang === 'mr'
@@ -70,7 +70,7 @@ export default function Footer() {
                 {/* Copyright */}
                 <div className="mt-8 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
                     <p>
-                        © {currentYear} {lang === 'mr' ? 'हिंदू पंचांग' : 'Hindu Panchang'}.
+                        © {currentYear} {lang === 'mr' ? 'कालनिर्णय २०२६' : 'Kalnirnay Calendar 2026'}.
                         {lang === 'mr' ? ' सर्व हक्क राखीव.' : ' All rights reserved.'}
                     </p>
                 </div>

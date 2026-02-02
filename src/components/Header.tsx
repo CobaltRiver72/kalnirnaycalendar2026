@@ -26,7 +26,7 @@ export default function Header() {
                         </div>
                         <div>
                             <h1 className="font-semibold text-lg leading-tight text-[var(--foreground)]">
-                                {lang === 'mr' ? 'हिंदू पंचांग' : 'Hindu Panchang'}
+                                {lang === 'mr' ? 'कालनिर्णय २०२६' : 'Kalnirnay Calendar 2026'}
                             </h1>
                             <p className="text-xs text-[var(--foreground-muted)]">
                                 {lang === 'mr' ? 'दैनिक पंचांग' : 'Daily Panchang'}

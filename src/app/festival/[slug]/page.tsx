@@ -20,15 +20,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!festival) {
         return {
-            title: 'Festival Not Found - Hindu Panchang',
+            title: 'Festival Not Found - Kalnirnay Calendar 2026',
         };
     }
 
     return {
-        title: `${festival.name.en} (${festival.name.mr}) - Hindu Festival`,
+        title: `${festival.name.en} (${festival.name.mr}) - Kalnirnay Calendar 2026`,
         description: festival.description.en.substring(0, 160),
         openGraph: {
-            title: `${festival.name.en} - Hindu Festival`,
+            title: `${festival.name.en} - Kalnirnay Calendar 2026`,
             description: festival.description.en.substring(0, 160),
         },
         other: {
