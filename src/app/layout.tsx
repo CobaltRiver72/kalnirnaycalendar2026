@@ -6,6 +6,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getWebSiteSchema, getOrganizationSchema } from "@/lib/schema";
 
+// Pre-stringify schemas at module level to prevent hydration mismatch
+const websiteSchemaJson = JSON.stringify(getWebSiteSchema());
+const organizationSchemaJson = JSON.stringify(getOrganizationSchema());
+
 // Load fonts via next/font (no manual preloads needed)
 const inter = Inter({
   subsets: ["latin"],
@@ -78,18 +82,16 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${mukta.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        {/* Fonts loaded via next/font - no manual links needed */}
+        {/* JSON-LD schemas with suppressHydrationWarning to handle browser extension interference */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getWebSiteSchema()),
-          }}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: websiteSchemaJson }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getOrganizationSchema()),
-          }}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: organizationSchemaJson }}
         />
       </head>
       <body className="flex flex-col min-h-screen font-sans">
