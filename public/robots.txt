@@ -1,11 +1,40 @@
 # Robots.txt for Kalnirnay Calendar 2026
 # https://kalnirnaycalendar2026.online
 
+# Allow all search engines full access
 User-agent: *
 Allow: /
 
-# Sitemap
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
 Sitemap: https://kalnirnaycalendar2026.online/sitemap.xml
 
-# Crawl-delay (optional, for politeness)
-Crawl-delay: 1
+# Host preference
+Host: https://kalnirnaycalendar2026.online

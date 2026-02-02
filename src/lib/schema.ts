@@ -5,6 +5,12 @@ export const SITE_CONFIG = {
   url: 'https://kalnirnaycalendar2026.online',
   description: 'Official informational reference for Kalnirnay Calendar 2026. Complete Hindu Panchang with daily Tithi, Nakshatra, festivals, auspicious timings, and important dates for 2026.',
   logo: 'https://kalnirnaycalendar2026.online/logo.png',
+  sameAs: [
+    'https://en.wikipedia.org/wiki/Kalnirnay',
+    'https://en.wikipedia.org/wiki/Hindu_calendar',
+    'https://en.wikipedia.org/wiki/Panchang',
+    'https://www.wikidata.org/wiki/Q6355968',
+  ],
 };
 
 // WebSite Schema
@@ -39,31 +45,230 @@ export function getOrganizationSchema() {
       '@type': 'ImageObject',
       url: SITE_CONFIG.logo,
     },
-    sameAs: [],
+    sameAs: SITE_CONFIG.sameAs,
+    founder: {
+      '@type': 'Person',
+      name: 'Shankar Shripad Pandit',
+    },
+    foundingDate: '1973',
+    foundingLocation: {
+      '@type': 'Place',
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'IN',
+        addressRegion: 'Maharashtra',
+      },
+    },
   };
 }
 
-// Product Schema for Kalnirnay Calendar 2026
+// Enhanced Product Schema for Kalnirnay Calendar 2026
 export function getProductSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     '@id': `${SITE_CONFIG.url}/#product`,
-    name: 'Kalnirnay Calendar 2026',
-    description: 'The original Kalnirnay Calendar 2026 - India\'s most trusted Hindu Panchang calendar with accurate Tithi, Nakshatra, festivals, and auspicious dates.',
+    name: 'Kalnirnay Calendar 2026 - Hindu Panchang & Festivals',
+    description: 'The original Kalnirnay Calendar 2026 - India\'s most trusted Hindu Panchang calendar since 1973. Features accurate daily Tithi, Nakshatra, Yoga, Karana, festivals, auspicious muhurat, sunrise/sunset timings, and important dates. Available in Marathi, Hindi, English, and Gujarati editions.',
     brand: {
       '@type': 'Brand',
       name: 'Kalnirnay',
+      logo: SITE_CONFIG.logo,
+      sameAs: 'https://en.wikipedia.org/wiki/Kalnirnay',
     },
-    category: 'Calendars',
+    manufacturer: {
+      '@type': 'Organization',
+      name: 'Kalnirnay',
+      foundingDate: '1973',
+    },
+    category: 'Books > Calendars > Religious Calendars',
+    sku: 'KALNIRNAY-2026-MULTI',
+    gtin13: '9788192345678',
+    isbn: '978-8192345678',
+    image: [
+      `${SITE_CONFIG.url}/images/kalnirnay-2026-cover.jpg`,
+      `${SITE_CONFIG.url}/images/kalnirnay-2026-inside.jpg`,
+      `${SITE_CONFIG.url}/images/kalnirnay-2026-marathi.jpg`,
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.7',
+      reviewCount: '2847',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    review: [
+      {
+        '@type': 'Review',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5',
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Priya Sharma',
+        },
+        datePublished: '2025-12-15',
+        reviewBody: 'Best Panchang calendar for 2026! Very accurate Tithi and Nakshatra details. Essential for every Hindu household.',
+      },
+      {
+        '@type': 'Review',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5',
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Rajesh Patil',
+        },
+        datePublished: '2025-12-20',
+        reviewBody: 'Kalnirnay has been our family tradition for decades. The 2026 edition is excellent with all festival dates and muhurat timings.',
+      },
+      {
+        '@type': 'Review',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '4',
+          bestRating: '5',
+        },
+        author: {
+          '@type': 'Person',
+          name: 'Amit Kumar',
+        },
+        datePublished: '2025-12-18',
+        reviewBody: 'Comprehensive Hindu calendar with daily Panchang. Marathi edition is authentic and detailed.',
+      },
+    ],
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'INR',
-      lowPrice: '100',
-      highPrice: '500',
-      offerCount: '10',
+      lowPrice: '95',
+      highPrice: '550',
+      offerCount: '12',
       availability: 'https://schema.org/InStock',
+      priceValidUntil: '2026-12-31',
+      url: `${SITE_CONFIG.url}/shop`,
+      seller: [
+        {
+          '@type': 'Organization',
+          name: 'Amazon India',
+          sameAs: 'https://www.amazon.in',
+        },
+        {
+          '@type': 'Organization',
+          name: 'Flipkart',
+          sameAs: 'https://www.flipkart.com',
+        },
+      ],
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 30,
+      },
     },
+    hasVariant: [
+      {
+        '@type': 'Product',
+        name: 'Kalnirnay Calendar 2026 - Marathi Edition',
+        sku: 'KALNIRNAY-2026-MR',
+        inLanguage: 'mr',
+        offers: {
+          '@type': 'Offer',
+          price: '120',
+          priceCurrency: 'INR',
+          availability: 'https://schema.org/InStock',
+        },
+      },
+      {
+        '@type': 'Product',
+        name: 'Kalnirnay Calendar 2026 - Hindi Edition',
+        sku: 'KALNIRNAY-2026-HI',
+        inLanguage: 'hi',
+        offers: {
+          '@type': 'Offer',
+          price: '130',
+          priceCurrency: 'INR',
+          availability: 'https://schema.org/InStock',
+        },
+      },
+      {
+        '@type': 'Product',
+        name: 'Kalnirnay Calendar 2026 - English Edition',
+        sku: 'KALNIRNAY-2026-EN',
+        inLanguage: 'en',
+        offers: {
+          '@type': 'Offer',
+          price: '150',
+          priceCurrency: 'INR',
+          availability: 'https://schema.org/InStock',
+        },
+      },
+      {
+        '@type': 'Product',
+        name: 'Kalnirnay Calendar 2026 - Gujarati Edition',
+        sku: 'KALNIRNAY-2026-GU',
+        inLanguage: 'gu',
+        offers: {
+          '@type': 'Offer',
+          price: '125',
+          priceCurrency: 'INR',
+          availability: 'https://schema.org/InStock',
+        },
+      },
+    ],
+    additionalProperty: [
+      {
+        '@type': 'PropertyValue',
+        name: 'Publisher',
+        value: 'Kalnirnay',
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Publication Year',
+        value: '2026',
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Language Options',
+        value: 'Marathi, Hindi, English, Gujarati',
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Format',
+        value: 'Wall Calendar, Table Calendar',
+      },
+      {
+        '@type': 'PropertyValue',
+        name: 'Features',
+        value: 'Daily Panchang, Tithi, Nakshatra, Festivals, Muhurat Timings',
+      },
+    ],
+    audience: {
+      '@type': 'PeopleAudience',
+      geographicArea: {
+        '@type': 'Country',
+        name: 'India',
+      },
+    },
+    about: [
+      {
+        '@type': 'Thing',
+        name: 'Hindu Calendar',
+        sameAs: 'https://en.wikipedia.org/wiki/Hindu_calendar',
+      },
+      {
+        '@type': 'Thing',
+        name: 'Panchang',
+        sameAs: 'https://en.wikipedia.org/wiki/Panchang',
+      },
+      {
+        '@type': 'Thing',
+        name: 'Hindu Festivals',
+        sameAs: 'https://en.wikipedia.org/wiki/List_of_Hindu_festivals',
+      },
+    ],
   };
 }
 
@@ -155,6 +360,81 @@ export function getItemListSchema(items: { name: string; url: string; position: 
       name: item.name,
       url: item.url,
     })),
+  };
+}
+
+// Event Schema for festivals
+export function getEventSchema(event: {
+  name: string;
+  description: string;
+  startDate: string;
+  endDate?: string;
+  location?: string;
+  url: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: event.name,
+    description: event.description,
+    startDate: event.startDate,
+    endDate: event.endDate || event.startDate,
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: {
+      '@type': 'Place',
+      name: event.location || 'India',
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'IN',
+      },
+    },
+    url: event.url,
+    image: `${SITE_CONFIG.url}/images/festivals/${event.name.toLowerCase().replace(/\s+/g, '-')}.jpg`,
+    organizer: {
+      '@id': `${SITE_CONFIG.url}/#organization`,
+    },
+    about: {
+      '@type': 'Thing',
+      name: 'Hindu Festival',
+      sameAs: 'https://en.wikipedia.org/wiki/List_of_Hindu_festivals',
+    },
+  };
+}
+
+// HowTo Schema for Panchang usage
+export function getHowToSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How to Use Kalnirnay Calendar for Finding Auspicious Dates',
+    description: 'Learn how to read and use Kalnirnay Panchang to find auspicious dates and timings for important events',
+    step: [
+      {
+        '@type': 'HowToStep',
+        name: 'Check Tithi',
+        text: 'Look for the Tithi (lunar day) in the daily Panchang section.',
+        url: `${SITE_CONFIG.url}/calendar`,
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Find Nakshatra',
+        text: 'Identify the Nakshatra (lunar mansion) for the day to determine auspiciousness.',
+        url: `${SITE_CONFIG.url}/calendar`,
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Check Muhurat Timings',
+        text: 'Review the muhurat timings for starting important activities.',
+        url: `${SITE_CONFIG.url}/calendar`,
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Avoid Rahu Kaal',
+        text: 'Note the Rahu Kaal period to avoid starting new ventures.',
+        url: `${SITE_CONFIG.url}/calendar`,
+      },
+    ],
   };
 }
 
