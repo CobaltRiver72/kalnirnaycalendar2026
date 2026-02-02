@@ -1,26 +1,327 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary Colors - Saffron/Orange Theme */
+  --color-primary: #FF6B2C;
+  --color-primary-dark: #E55A1F;
+  --color-primary-light: #FF8A5B;
+
+  /* Secondary Colors */
+  --color-secondary: #8B0000;
+  --color-accent: #FFD700;
+
+  /* Background Colors */
+  --background: #FFF8F0;
+  --background-card: #FFFFFF;
+  --background-dark: #2D1810;
+
+  /* Text Colors */
+  --foreground: #2D1810;
+  --foreground-muted: #6B5B54;
+  --foreground-light: #FFFFFF;
+
+  /* Festival Colors */
+  --festival-major: #FF6B2C;
+  --festival-minor: #8B5CF6;
+  --festival-vrat: #059669;
+
+  /* Status Colors */
+  --color-auspicious: #059669;
+  --color-inauspicious: #DC2626;
+
+  /* Border & Shadows */
+  --border-color: #E7DED6;
+  --shadow-sm: 0 1px 2px rgba(45, 24, 16, 0.05);
+  --shadow-md: 0 4px 6px rgba(45, 24, 16, 0.1);
+  --shadow-lg: 0 10px 15px rgba(45, 24, 16, 0.1);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --font-sans: 'Mukta', 'Inter', sans-serif;
+  --font-marathi: 'Mukta', sans-serif;
+  --font-english: 'Inter', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base styles */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mukta', 'Inter', Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Marathi text styling */
+.font-marathi {
+  font-family: 'Mukta', sans-serif;
+}
+
+.font-english {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Card styles */
+.card {
+  background: var(--background-card);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Festival badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.badge-major {
+  background: rgba(255, 107, 44, 0.15);
+  color: var(--festival-major);
+}
+
+.badge-minor {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--festival-minor);
+}
+
+.badge-vrat {
+  background: rgba(5, 150, 105, 0.15);
+  color: var(--festival-vrat);
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.btn-secondary {
+  background: var(--background-card);
+  color: var(--foreground);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: var(--background);
+}
+
+/* Calendar grid styles */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--background-card);
+  border: 1px solid transparent;
+}
+
+.calendar-day:hover {
+  border-color: var(--color-primary);
+  background: rgba(255, 107, 44, 0.05);
+}
+
+.calendar-day.today {
+  border: 2px solid var(--color-primary);
+  background: rgba(255, 107, 44, 0.1);
+}
+
+.calendar-day.festival {
+  background: linear-gradient(135deg, rgba(255, 107, 44, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
+}
+
+.calendar-day.holiday {
+  color: var(--color-secondary);
+}
+
+/* Panchang table */
+.panchang-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.panchang-table td,
+.panchang-table th {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.panchang-table th {
+  color: var(--foreground-muted);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+/* Language toggle */
+.lang-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--background);
+  border-radius: 8px;
+}
+
+.lang-toggle button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.lang-toggle button.active {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Decorative elements */
+.gradient-border {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  padding: 3px;
+  border-radius: 12px;
+}
+
+.gradient-border>* {
+  background: var(--background-card);
+  border-radius: 9px;
+}
+
+/* Sunrise/Sunset icons */
+.sun-times {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 44, 0.1) 100%);
+  border-radius: 8px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  .calendar-grid {
+    gap: 1px;
+  }
+
+  .calendar-day {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .calendar-grid {
+    gap: 2px;
+  }
+
+  .calendar-day {
+    padding: 2px;
+    font-size: 0.875rem;
+  }
+
+  .panchang-table td,
+  .panchang-table th {
+    padding: 8px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
 }

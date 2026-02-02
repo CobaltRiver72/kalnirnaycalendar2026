@@ -1,0 +1,1118 @@
+[
+    {
+        "date": "2024-12-01",
+        "weekday": {
+            "mr": "रविवार",
+            "en": "Sunday"
+        },
+        "tithi": {
+            "mr": "अमावस्या",
+            "en": "Amavasya"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "ज्येष्ठा",
+            "en": "Jyeshtha"
+        },
+        "yoga": {
+            "mr": "शुभ",
+            "en": "Shubha"
+        },
+        "karana": {
+            "mr": "नाग",
+            "en": "Naga"
+        },
+        "sunrise": "06:52",
+        "sunset": "18:02",
+        "moonrise": "06:30",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-02",
+        "weekday": {
+            "mr": "सोमवार",
+            "en": "Monday"
+        },
+        "tithi": {
+            "mr": "प्रतिपदा",
+            "en": "Pratipada"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "मूळ",
+            "en": "Moola"
+        },
+        "yoga": {
+            "mr": "शोभन",
+            "en": "Shobhana"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "06:53",
+        "sunset": "18:02",
+        "moonrise": "07:15",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": {
+            "mr": "शुभ दिवस",
+            "en": "Auspicious day"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-03",
+        "weekday": {
+            "mr": "मंगळवार",
+            "en": "Tuesday"
+        },
+        "tithi": {
+            "mr": "द्वितीया",
+            "en": "Dwitiya"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "पूर्वाषाढा",
+            "en": "Purva Ashadha"
+        },
+        "yoga": {
+            "mr": "अतिगण्ड",
+            "en": "Atiganda"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "06:54",
+        "sunset": "18:02",
+        "moonrise": "08:02",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-04",
+        "weekday": {
+            "mr": "बुधवार",
+            "en": "Wednesday"
+        },
+        "tithi": {
+            "mr": "तृतीया",
+            "en": "Tritiya"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "उत्तराषाढा",
+            "en": "Uttara Ashadha"
+        },
+        "yoga": {
+            "mr": "सुकर्मा",
+            "en": "Sukarma"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "06:54",
+        "sunset": "18:02",
+        "moonrise": "08:50",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-05",
+        "weekday": {
+            "mr": "गुरुवार",
+            "en": "Thursday"
+        },
+        "tithi": {
+            "mr": "चतुर्थी",
+            "en": "Chaturthi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "श्रवण",
+            "en": "Shravana"
+        },
+        "yoga": {
+            "mr": "धृति",
+            "en": "Dhriti"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "06:55",
+        "sunset": "18:02",
+        "moonrise": "09:40",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": {
+            "mr": "गुरुवार शुभ",
+            "en": "Thursday auspicious"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-06",
+        "weekday": {
+            "mr": "शुक्रवार",
+            "en": "Friday"
+        },
+        "tithi": {
+            "mr": "पंचमी",
+            "en": "Panchami"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "धनिष्ठा",
+            "en": "Dhanishtha"
+        },
+        "yoga": {
+            "mr": "शूल",
+            "en": "Shula"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "06:56",
+        "sunset": "18:02",
+        "moonrise": "10:30",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-07",
+        "weekday": {
+            "mr": "शनिवार",
+            "en": "Saturday"
+        },
+        "tithi": {
+            "mr": "षष्ठी",
+            "en": "Shashthi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "शतभिषा",
+            "en": "Shatabhisha"
+        },
+        "yoga": {
+            "mr": "गण्ड",
+            "en": "Ganda"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "06:56",
+        "sunset": "18:02",
+        "moonrise": "11:22",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-08",
+        "weekday": {
+            "mr": "रविवार",
+            "en": "Sunday"
+        },
+        "tithi": {
+            "mr": "सप्तमी",
+            "en": "Saptami"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "पूर्वाभाद्रपद",
+            "en": "Purva Bhadrapada"
+        },
+        "yoga": {
+            "mr": "वृद्धि",
+            "en": "Vriddhi"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "06:57",
+        "sunset": "18:03",
+        "moonrise": "12:15",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-09",
+        "weekday": {
+            "mr": "सोमवार",
+            "en": "Monday"
+        },
+        "tithi": {
+            "mr": "अष्टमी",
+            "en": "Ashtami"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "उत्तराभाद्रपद",
+            "en": "Uttara Bhadrapada"
+        },
+        "yoga": {
+            "mr": "ध्रुव",
+            "en": "Dhruva"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "06:58",
+        "sunset": "18:03",
+        "moonrise": "13:08",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-10",
+        "weekday": {
+            "mr": "मंगळवार",
+            "en": "Tuesday"
+        },
+        "tithi": {
+            "mr": "नवमी",
+            "en": "Navami"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "रेवती",
+            "en": "Revati"
+        },
+        "yoga": {
+            "mr": "व्याघात",
+            "en": "Vyaghata"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "06:58",
+        "sunset": "18:03",
+        "moonrise": "14:02",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-11",
+        "weekday": {
+            "mr": "बुधवार",
+            "en": "Wednesday"
+        },
+        "tithi": {
+            "mr": "दशमी",
+            "en": "Dashami"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "अश्विनी",
+            "en": "Ashwini"
+        },
+        "yoga": {
+            "mr": "हर्षण",
+            "en": "Harshana"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "06:59",
+        "sunset": "18:03",
+        "moonrise": "14:56",
+        "festivals": [],
+        "vrat": [
+            {
+                "name": {
+                    "mr": "गीता जयंती",
+                    "en": "Gita Jayanti"
+                },
+                "type": "vrat"
+            }
+        ],
+        "auspicious": {
+            "mr": "शुभ मुहूर्त",
+            "en": "Auspicious timing"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-12",
+        "weekday": {
+            "mr": "गुरुवार",
+            "en": "Thursday"
+        },
+        "tithi": {
+            "mr": "एकादशी",
+            "en": "Ekadashi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "भरणी",
+            "en": "Bharani"
+        },
+        "yoga": {
+            "mr": "वज्र",
+            "en": "Vajra"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "07:00",
+        "sunset": "18:04",
+        "moonrise": "15:50",
+        "festivals": [],
+        "vrat": [
+            {
+                "name": {
+                    "mr": "मोक्षदा एकादशी",
+                    "en": "Mokshada Ekadashi"
+                },
+                "type": "vrat"
+            }
+        ],
+        "auspicious": {
+            "mr": "एकादशी उपवास",
+            "en": "Ekadashi fasting"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-13",
+        "weekday": {
+            "mr": "शुक्रवार",
+            "en": "Friday"
+        },
+        "tithi": {
+            "mr": "द्वादशी",
+            "en": "Dwadashi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "कृत्तिका",
+            "en": "Krittika"
+        },
+        "yoga": {
+            "mr": "सिद्धि",
+            "en": "Siddhi"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "07:00",
+        "sunset": "18:04",
+        "moonrise": "16:45",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-14",
+        "weekday": {
+            "mr": "शनिवार",
+            "en": "Saturday"
+        },
+        "tithi": {
+            "mr": "त्रयोदशी",
+            "en": "Trayodashi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "रोहिणी",
+            "en": "Rohini"
+        },
+        "yoga": {
+            "mr": "व्यतीपात",
+            "en": "Vyatipata"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "07:01",
+        "sunset": "18:04",
+        "moonrise": "17:40",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-15",
+        "weekday": {
+            "mr": "रविवार",
+            "en": "Sunday"
+        },
+        "tithi": {
+            "mr": "चतुर्दशी",
+            "en": "Chaturdashi"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "मृगशीर्ष",
+            "en": "Mrigashirsha"
+        },
+        "yoga": {
+            "mr": "वरीयान",
+            "en": "Variyan"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "07:02",
+        "sunset": "18:05",
+        "moonrise": "18:35",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-16",
+        "weekday": {
+            "mr": "सोमवार",
+            "en": "Monday"
+        },
+        "tithi": {
+            "mr": "पौर्णिमा",
+            "en": "Purnima"
+        },
+        "paksha": {
+            "mr": "शुक्ल पक्ष",
+            "en": "Shukla Paksha"
+        },
+        "nakshatra": {
+            "mr": "आर्द्रा",
+            "en": "Ardra"
+        },
+        "yoga": {
+            "mr": "परिघ",
+            "en": "Parigha"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "07:02",
+        "sunset": "18:05",
+        "moonrise": "19:30",
+        "festivals": [
+            {
+                "name": {
+                    "mr": "दत्तात्रेय जयंती",
+                    "en": "Dattatreya Jayanti"
+                },
+                "type": "major",
+                "slug": "dattatreya-jayanti"
+            }
+        ],
+        "vrat": [],
+        "auspicious": {
+            "mr": "पौर्णिमा शुभ",
+            "en": "Purnima auspicious"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-17",
+        "weekday": {
+            "mr": "मंगळवार",
+            "en": "Tuesday"
+        },
+        "tithi": {
+            "mr": "प्रतिपदा",
+            "en": "Pratipada"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "पुनर्वसु",
+            "en": "Punarvasu"
+        },
+        "yoga": {
+            "mr": "शिव",
+            "en": "Shiva"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "07:03",
+        "sunset": "18:06",
+        "moonrise": "20:25",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-18",
+        "weekday": {
+            "mr": "बुधवार",
+            "en": "Wednesday"
+        },
+        "tithi": {
+            "mr": "द्वितीया",
+            "en": "Dwitiya"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "पुष्य",
+            "en": "Pushya"
+        },
+        "yoga": {
+            "mr": "सिद्ध",
+            "en": "Siddha"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "07:03",
+        "sunset": "18:06",
+        "moonrise": "21:18",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-19",
+        "weekday": {
+            "mr": "गुरुवार",
+            "en": "Thursday"
+        },
+        "tithi": {
+            "mr": "तृतीया",
+            "en": "Tritiya"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "आश्लेषा",
+            "en": "Ashlesha"
+        },
+        "yoga": {
+            "mr": "साध्य",
+            "en": "Sadhya"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "07:04",
+        "sunset": "18:07",
+        "moonrise": "22:10",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-20",
+        "weekday": {
+            "mr": "शुक्रवार",
+            "en": "Friday"
+        },
+        "tithi": {
+            "mr": "चतुर्थी",
+            "en": "Chaturthi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "मघा",
+            "en": "Magha"
+        },
+        "yoga": {
+            "mr": "शुभ",
+            "en": "Shubha"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "07:04",
+        "sunset": "18:07",
+        "moonrise": "23:02",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-21",
+        "weekday": {
+            "mr": "शनिवार",
+            "en": "Saturday"
+        },
+        "tithi": {
+            "mr": "पंचमी",
+            "en": "Panchami"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "पूर्वा फाल्गुनी",
+            "en": "Purva Phalguni"
+        },
+        "yoga": {
+            "mr": "शुक्ल",
+            "en": "Shukla"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "07:05",
+        "sunset": "18:08",
+        "moonrise": "23:52",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-22",
+        "weekday": {
+            "mr": "रविवार",
+            "en": "Sunday"
+        },
+        "tithi": {
+            "mr": "षष्ठी",
+            "en": "Shashthi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "उत्तरा फाल्गुनी",
+            "en": "Uttara Phalguni"
+        },
+        "yoga": {
+            "mr": "ब्रह्म",
+            "en": "Brahma"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "07:05",
+        "sunset": "18:08",
+        "moonrise": "00:42",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-23",
+        "weekday": {
+            "mr": "सोमवार",
+            "en": "Monday"
+        },
+        "tithi": {
+            "mr": "सप्तमी",
+            "en": "Saptami"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "हस्त",
+            "en": "Hasta"
+        },
+        "yoga": {
+            "mr": "इन्द्र",
+            "en": "Indra"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "07:06",
+        "sunset": "18:09",
+        "moonrise": "01:30",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": {
+            "mr": "शुभ सोमवार",
+            "en": "Auspicious Monday"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-24",
+        "weekday": {
+            "mr": "मंगळवार",
+            "en": "Tuesday"
+        },
+        "tithi": {
+            "mr": "अष्टमी",
+            "en": "Ashtami"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "चित्रा",
+            "en": "Chitra"
+        },
+        "yoga": {
+            "mr": "वैधृति",
+            "en": "Vaidhriti"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "07:06",
+        "sunset": "18:09",
+        "moonrise": "02:18",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-25",
+        "weekday": {
+            "mr": "बुधवार",
+            "en": "Wednesday"
+        },
+        "tithi": {
+            "mr": "नवमी",
+            "en": "Navami"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "स्वाती",
+            "en": "Swati"
+        },
+        "yoga": {
+            "mr": "विष्कुम्भ",
+            "en": "Vishkumbha"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "07:07",
+        "sunset": "18:10",
+        "moonrise": "03:05",
+        "festivals": [
+            {
+                "name": {
+                    "mr": "ख्रिसमस",
+                    "en": "Christmas"
+                },
+                "type": "minor"
+            }
+        ],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-26",
+        "weekday": {
+            "mr": "गुरुवार",
+            "en": "Thursday"
+        },
+        "tithi": {
+            "mr": "दशमी",
+            "en": "Dashami"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "विशाखा",
+            "en": "Vishakha"
+        },
+        "yoga": {
+            "mr": "प्रीति",
+            "en": "Priti"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "07:07",
+        "sunset": "18:10",
+        "moonrise": "03:52",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-27",
+        "weekday": {
+            "mr": "शुक्रवार",
+            "en": "Friday"
+        },
+        "tithi": {
+            "mr": "एकादशी",
+            "en": "Ekadashi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "अनुराधा",
+            "en": "Anuradha"
+        },
+        "yoga": {
+            "mr": "आयुष्मान",
+            "en": "Ayushman"
+        },
+        "karana": {
+            "mr": "बालव",
+            "en": "Balava"
+        },
+        "sunrise": "07:07",
+        "sunset": "18:11",
+        "moonrise": "04:38",
+        "festivals": [],
+        "vrat": [
+            {
+                "name": {
+                    "mr": "सफला एकादशी",
+                    "en": "Saphala Ekadashi"
+                },
+                "type": "vrat"
+            }
+        ],
+        "auspicious": {
+            "mr": "एकादशी उपवास",
+            "en": "Ekadashi fasting"
+        },
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-28",
+        "weekday": {
+            "mr": "शनिवार",
+            "en": "Saturday"
+        },
+        "tithi": {
+            "mr": "द्वादशी",
+            "en": "Dwadashi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "ज्येष्ठा",
+            "en": "Jyeshtha"
+        },
+        "yoga": {
+            "mr": "सौभाग्य",
+            "en": "Saubhagya"
+        },
+        "karana": {
+            "mr": "कौलव",
+            "en": "Kaulava"
+        },
+        "sunrise": "07:08",
+        "sunset": "18:11",
+        "moonrise": "05:25",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-29",
+        "weekday": {
+            "mr": "रविवार",
+            "en": "Sunday"
+        },
+        "tithi": {
+            "mr": "त्रयोदशी",
+            "en": "Trayodashi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "मूळ",
+            "en": "Moola"
+        },
+        "yoga": {
+            "mr": "शोभन",
+            "en": "Shobhana"
+        },
+        "karana": {
+            "mr": "तैतिल",
+            "en": "Taitila"
+        },
+        "sunrise": "07:08",
+        "sunset": "18:12",
+        "moonrise": "06:12",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-30",
+        "weekday": {
+            "mr": "सोमवार",
+            "en": "Monday"
+        },
+        "tithi": {
+            "mr": "चतुर्दशी",
+            "en": "Chaturdashi"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "पूर्वाषाढा",
+            "en": "Purva Ashadha"
+        },
+        "yoga": {
+            "mr": "अतिगण्ड",
+            "en": "Atiganda"
+        },
+        "karana": {
+            "mr": "बव",
+            "en": "Bava"
+        },
+        "sunrise": "07:08",
+        "sunset": "18:12",
+        "moonrise": "06:58",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    },
+    {
+        "date": "2024-12-31",
+        "weekday": {
+            "mr": "मंगळवार",
+            "en": "Tuesday"
+        },
+        "tithi": {
+            "mr": "अमावस्या",
+            "en": "Amavasya"
+        },
+        "paksha": {
+            "mr": "कृष्ण पक्ष",
+            "en": "Krishna Paksha"
+        },
+        "nakshatra": {
+            "mr": "उत्तराषाढा",
+            "en": "Uttara Ashadha"
+        },
+        "yoga": {
+            "mr": "सुकर्मा",
+            "en": "Sukarma"
+        },
+        "karana": {
+            "mr": "नाग",
+            "en": "Naga"
+        },
+        "sunrise": "07:09",
+        "sunset": "18:13",
+        "moonrise": "07:45",
+        "festivals": [],
+        "vrat": [],
+        "auspicious": null,
+        "inauspicious": null
+    }
+]
